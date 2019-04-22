@@ -7,7 +7,7 @@ use App\Fruit;
 class FruitController extends Controller
 {
 	function index(){
-		$fruits=Fruit::paginate(15);
+		$fruits=Fruit::all();
 		return view('fruit.index',['fruits'=>$fruits]);
 	}
 	function show($id){

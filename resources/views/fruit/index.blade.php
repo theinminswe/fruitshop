@@ -41,7 +41,6 @@
 						       
 
 						</div>
-						{{ $f->render('partials.pagination') }}
 					</div>
 					<!-- end card-body -->
 
